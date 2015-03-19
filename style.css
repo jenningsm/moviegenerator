@@ -12,17 +12,17 @@ div {
 }
 
 #subtitle {
-  bottom: 15%;
+  bottom: 12%;
   font-size: 2.5em;
 }
 
 #date {
-  top: 19%;
+  top: 22%;
   font-size: 2em;
 }
 
 #title {
-  top: 47%;
+  top: 50%;
   font-size: 9em;
   font-weight: 900;
 }
