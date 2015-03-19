@@ -23,6 +23,7 @@ div {
 
 #title {
   top: 50%;
+  font-family: 'test_font', sans-serif;
   font-size: 9em;
   font-weight: 900;
 }
@@ -31,7 +32,15 @@ body {
   margin: 0;
   padding: 0;
   background: black;
-  font-family: 'Chivo', sans-serif;
   color: white;
   text-align: center;
+}
+
+@font-face {
+
+  font-family: 'test_font';
+  src: url('Molot.otf');
+  font-weight: 900;
+  font-style: normal;
+
 }

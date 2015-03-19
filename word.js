@@ -20,5 +20,5 @@ var randAd = adjectives[Math.floor(Math.random() * adjectives.length)];
 var randNoun = nouns[Math.floor(Math.random() * nouns.length)];
 var randSub = subtitles[Math.floor(Math.random() * subtitles.length)];
 
-document.getElementById("title").innerHTML = (randAd + ' ' + randNoun).toUpperCase();
+document.getElementById("title").innerHTML = '<span style="visibility:hidden">_</span>' + (randAd + ' ' + randNoun).toUpperCase();
 document.getElementById("subtitle").innerHTML = randSub.toUpperCase();
